@@ -1,5 +1,40 @@
-.weatherAppWrapper{
-    max-width: 650px;
-    margin: 30px auto;
-    padding: 10px;
+body {
+  font-family: arial, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  color: #202124;
+  display: block;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  color: #202124;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.weatherAppWrapper {
+  padding: 10px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+
+.weather-app-allwrap {
+  max-width: 650px;
+  margin: 30px auto;
 }
