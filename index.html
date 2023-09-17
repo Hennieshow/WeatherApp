@@ -14,19 +14,23 @@
     <div class="container">
       <div class="weather-app-allwrap">
         <div class="weatherAppWrapper">
-          <h1>New York</h1>
-          <ul>
-            <li>Friday 9:58pm</li>
-            <li>Clear</li>
-          </ul>
+          <div class="weather-overview">
+            <h1>New York</h1>
+            <ul>
+              <li>Friday 9:58pm</li>
+              <li>Clear</li>
+            </ul>
+          </div>
 
           <div class="row">
             <div class="col-md-6">
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/rain_light.png"
-                alt="weatherImage"
-              />
-              27 <span class="unit">°C|°F</span>
+              <div class="d-flex weather-temperature">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/rain_light.png"
+                  alt="weatherImage"
+                />
+                <strong>27</strong>°C | <a href="#"> °F</a>
+              </div>
             </div>
 
             <div class="col-md-6">
@@ -38,7 +42,7 @@
             </div>
           </div>
         </div>
-         <small
+        <small
           ><a href="https://github.com/Hennieshow/WeatherApp" target="_blank"
             >Open-source code</a
           >, by Eniola Soniyi</small
